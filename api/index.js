@@ -28,3 +28,6 @@ mongoose
 app.listen(port, () => {
   console.log("server is running on port 3000");
 });
+
+const User = require("./models/user");
+const Post = require("./models/post");

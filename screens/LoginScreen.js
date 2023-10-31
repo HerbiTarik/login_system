@@ -51,6 +51,7 @@ const LoginScreen = () => {
               color="gray"
             />
             <TextInput
+              secureTextEntry={true}
               value={password}
               onChangeText={(text) => setPassword(text)}
               style={[styles.textInput, { fontSize: password ? 16 : 16 }]}
